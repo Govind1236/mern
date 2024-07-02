@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img-logo {
+        object-fit: cover;
+        height: 50px;
+        width: 50px;
+    }
+
+    .list-item {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+
+    }
+
+    li:hover {
+        color: rgb(80, 85, 255);
+        cursor: pointer;
+    }
+
+    li {
+        content: "";
+        transition: 1s;
+    }
+
+    .user-img {
+        object-fit: cover;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+    }
+
+    .para-graph {
+        width: 500px;
+
+    }
+</style>
+<header>
+    <nav>
+        <!-- logo  -->
+        <div>
+            <img src="https://cdn-icons-png.freepik.com/256/5977/5977575.png?ga=GA1.1.979474641.1719810953&semt=ais_hybrid"
+                alt="logo" class="img-logo">
+        </div>
+        <!-- nav bar -->
+        <div>
+            <ul class="list-item">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <!-- user img -->
+        <div class="user">
+            <img src="https://img.freepik.com/free-photo/close-up-portrait-young-bearded-man-white-shirt-jacket-posing-camera-with-broad-smile-isolated-gray_171337-629.jpg?ga=GA1.1.979474641.1719810953&semt=sph"
+                alt="user-img" class="user-img">
+        </div>
+    </nav>
+</header>
+
+<body>
+    <style>
+        body {
+            background-color: rgba(49, 49, 49, 0);
+        }
+
+        .text {
+            color: rgb(15, 27, 253);
+        }
+
+        .front-text {
+            padding-top: 120px;
+            padding-left: 155px;
+        }
+
+        h5 {
+            height: 2px;
+            font-size: 15px;
+        }
+    </style>
+    <section>
+        <div class="front-text">
+            <!-- front page info -->
+            <h5>
+                Hello, It's Me
+            </h5>
+            <h1>Govind Basnet</h1>
+            <h5>And i'm <span class="text">Just a Learner</span></h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sunt maxime quo officiis rerum. Nulla optio
+                voluptate quibusdam, velit veniam quis maiores ab consectetur possimus, voluptatibus, itaque aut quas
+                ducimus.</p>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
